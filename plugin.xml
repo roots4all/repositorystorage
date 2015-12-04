@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.amanda.workshop"
-        version="0.0.1">
-
-  <name>StorageRepo</name>
-  <description>A Cordova plugin that allows setting and getting of genealogical repository metadata in local storage.</description>
-  <author>Amanda Jensen</author>
-
-  <engines>
-    <engine name="cordova" version=">=3.6.0" />
-  </engines>
-
-  <asset src="www/storagerepos.js" target="storagerepos.js" />
-
+        id="org.amanda.lsm" version="0.0.1">
+    <name>lsm</name>
+    <description>Cordova Local Storage Manager Plugin</description>
+    <keywords>cordova,local storage</keywords>
+    <js-module src="www/lsm.js" name="device">
+        <clobbers target="lsm" />
+    </js-module>
 </plugin>
+        T
