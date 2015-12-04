@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.acme.plugin.alert"
+        id="edu.luc.plugin.storagerepos"
         version="0.0.1">
 
   <name>StorageRepo</name>
@@ -14,12 +14,6 @@
     <clobbers target="StorageRepo" />
   </js-module>
 
-  <!-- android -->
-  <platform name="android">
-  </platform>
-
-  <!-- ios -->
-  <platform name="ios">
-  </platform>
+  
 
 </plugin>
